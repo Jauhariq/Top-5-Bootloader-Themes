@@ -48,13 +48,13 @@ function check_root() {
 }
 
 function select_theme() {
-    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Quit')
+    themes=('Nino-Christmas-Version' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
         case "${THEME_NAME}" in
-            'Vimix')
-                splash 'Installing Vimix Theme'
+            'Nino-Christmas-Version')
+                splash 'Installing Nino-Christmas-Version Theme'
                 break;;
             'Cyberpunk')
                 splash 'Installing Cyberpunk Theme'
